@@ -15,4 +15,4 @@ It is necessary to use `<base>` tag for that all the relative paths in `slides.h
 ```
 Add one of them into the `<head>` tag parcel. 
 
-> The second usage may not be able to correctly parsed if the browser loads the local page through "file:///webfolder/slides/slides.html"
+> Note: The second usage may not be able to correctly parsed if the browser loads the local page through "file:///webfolder/slides/slides.html"
