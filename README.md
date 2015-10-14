@@ -17,6 +17,6 @@ Add one of them into the `<head>` tag parcel.
 
 > Note: The second usage may not be able to correctly parsed if the browser loads the local page through "file:///webfolder/slides/slides.html"
 
-## Acknownledgement
+## Acknowledgement
 The template is derived from [here](https://github.com/qckanemoto/jekyll-qck-theme). Thanks to the author.
 
