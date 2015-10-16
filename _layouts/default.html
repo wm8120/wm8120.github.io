@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ site.language }}">
 <head>
-    {% capture title %}{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}{% endcapture %}
+    {% capture title %}{% if page.title %}{{ page.title }} | {% endif %}{{ site.title | downcase }}{% endcapture %}
 
     {% include page-url-resolver.html page=page %}
 
