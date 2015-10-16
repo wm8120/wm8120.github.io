@@ -1,13 +1,13 @@
 #
 # Basic settings.
 #
-#baseurl: http://localhost:4000
+baseurl: http://localhost:4000/_site/
 #baseurl: http://qckanemoto.github.io
-baseurl: http://qckanemoto.github.io/jekyll-qck-theme
-title: Your name
-description: Some descriptions of yourself.
-avatar: /assets/img/ogp.png
-language: ja
+#baseurl: http://wm8120.github.io
+title: OSDPI
+description: scatters on os principle design and implementation
+avatar: /assets/img/face.jpg
+language: cn
 
 #
 # Icons
@@ -15,9 +15,9 @@ language: ja
 icons:
   rss: true
   email:
-  github: qckanemoto
+  github: wm8120
   bitbucket:
-  twitter: qckanemoto
+  twitter: wm8120
   facebook:
   google_plus:
   tumblr:
