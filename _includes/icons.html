@@ -1,13 +1,5 @@
 {% assign icons = include.icons %}
 
-{% if icons.rss %}
-<li>
-    <a href="{{ '/feed.xml' | prepend: site.baseurl }}">
-        <i class="fa fa-fw fa-rss"></i>
-    </a>
-</li>
-{% endif %}
-
 {% if icons.email %}
 <li>
     <a href="mailto:{{ icons.email }}">
@@ -156,6 +148,14 @@
 <li>
     <a href="https://www.youtube.com/user/{{ icons.youtube }}">
         <i class="fa fa-fw fa-youtube"></i>
+    </a>
+</li>
+{% endif %}
+
+{% if icons.rss %}
+<li>
+    <a href="{{ '/feed.xml' | prepend: site.baseurl }}">
+        <i class="fa fa-fw fa-rss"></i>
     </a>
 </li>
 {% endif %}
