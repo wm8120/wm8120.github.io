@@ -13,10 +13,10 @@ language: cn
 #
 icons:
   rss: true
-  email:
+  email: meng@ospdi.com
   github: wm8120
   bitbucket:
-  twitter: wm8120
+  twitter: 
   facebook:
   google_plus:
   tumblr:
@@ -28,7 +28,7 @@ icons:
   pinterest:
   reddit:
   soundcloud:
-  stack_exchange:  # full URL
+  stack_exchange: http://stackoverflow.com/users/1834254/wm8120 # full URL
   steam:
   wordpress:
   youtube:
