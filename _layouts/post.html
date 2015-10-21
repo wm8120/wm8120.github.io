@@ -13,7 +13,9 @@ layout: default
 </div>
 
 {% if site.disqus %}
+{% unless page.comments != disable %}
 <section class="comments">
-    {% include disqus.html %}
+    {% include disqus.html page=page %}
 </section>
+{% endunless %}
 {% endif %}
