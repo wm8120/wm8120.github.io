@@ -83,7 +83,7 @@
 			if(!(this instanceof callee)) return new callee(option );
 			var o = this, c = o.config = $.extend(true, {}, callee.defaults, callee.overwrite[sname] || {}, option, option[sname]);
 			c.url = c.url || location.href;
-			c.button = $(c.tempalte);
+			c.button = $(c.template);
 			c.wrapper = c.button.hasClass('esb') ? c.button : c.button.find('.esb');
 			c.label = c.wrapper.find('.esb-label').html(c.label);
 			c.counter = c.wrapper.find('.esb-counter').html(c.waitCounter);
@@ -115,7 +115,7 @@
 				entryTitle : '投稿する', // esb-entry クラスを持つ要素に割り当てる title 属性値
 				searchTitle : '検索する', // esb-search クラスを持つ要素に割り当てる title 属性値
 				waitCounter : '<span>&nbsp;</span>', // Web API の取得結果待ち時に表示するマークアップ
-				tempalte : '<span class="esb"><a class="esb-label esb-search" target="_blank"></a><a class="esb-counter esb-entry" target="_blank"></a></span>', // ボタンのテンプレート
+				template : '<span class="esb"><a class="esb-label esb-search" target="_blank"></a><a class="esb-counter esb-entry" target="_blank"></a></span>', // ボタンのテンプレート
 				useBrandColor : true, // ブランドカラーの使用
 				inverseColor : false // ブランドカラー未使用時の配色の反転
 			},
